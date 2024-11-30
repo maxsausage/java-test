@@ -1,0 +1,12 @@
+services:
+   java-test:
+     image: java-test:v2
+     container_name: java_test
+     ports:
+       - '88:8080'
+     restart: unless-stopped
+networks:
+  default:
+    external:
+      name: javatest
+
