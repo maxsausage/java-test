@@ -1,6 +1,6 @@
 services:
    java-test:
-     image: java-test:v2
+     image: java-test:v4
      container_name: java_test
      ports:
        - '88:8080'
